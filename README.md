@@ -1,2 +1,88 @@
-# ScotlandJS-React-Native-Workshop
-Repo for the React Native workshop at ScotlandJS 2018.
+# Mobile App Development with JavaScript and React Native
+### ScotlandJS 2018 React Native Workshop
+
+### TODO - To Be Removed
+
+1. Seating setup: 3/4 around a table
+2. Repo:
+	- Have components for different exercises
+	- Have a backup fake API data
+3. Prepare the app to be built
+4. Add links
+5. Prepare slides
+  
+### Chapter 0 - Pre-requisites:
+
+1. Install Expo XDE
+2. Code editor & setup - VS Code, etc.
+3. Xcode to get the iOS emulator
+4. Install Expo Client on iOS or Android phone (minimum requirements for Expo client?)
+5. Download the repo
+6. Sit and relax :-)
+
+# Before Lunch break - The Basics (4hrs)
+
+### Chapter 1 - Introduction to React Native - (0.5h)
+
+1. What is React & React Native? 
+2. Why need for React Native? 
+3. Some misconceptions about React Native
+4. Where to seek help
+  - [React Native docs](https://facebook.github.io/react-native/docs/getting-started.html)
+  - [Expo docs](https://docs.expo.io/versions/latest/)
+  
+### Chapter 2 - Setting up a new project - (1h)
+
+1. What are the various options available? (get the image of various options)
+2. Expo walkthrough
+3. Get basic text visible on screen, change text and see it reloading
+
+### Chapter 3 - Basic React Native components - (1h) 
+1. View 
+2. Text 
+3. Image 
+4. Button 
+
+Add few components and switch between them using Button.
+
+### Chapter 4 - Styling - (1h)
+
+1. Basic styling in React Native - Flexbox!
+2. Width and height
+
+### Chapter 5 - More React Native components - (1h) 
+
+1. TextInput
+2. TouchableOpacity
+3. ScrollView
+4. FlatView
+
+# After Lunch break - We are building an app! (4hrs)
+
+### Chapter 6 - What are we going to build 
+
+Building something that involves 2h 
+	- calls an API, 
+  - renders a list of stuff, conditional, with a component
+
+Start using the Repo (containing navigation)
+	- Define the Final Product
+
+### Chapter 7 - Navigation - (1h)
+
+1. [React Native Navigation](https://reactnavigation.org/)
+
+### Chapter 8 - Basic of animations - (1h)
+
+### Next steps ??
+	- Expo docs: Fonts, AppLoading, MapView
+	- Debugging React Native applications
+	- Advanced: Authentication, backend, databases, push notifications 
+	- State management
+	- Platform specific apps
+	- App shipping to Google Play and Apple Store
+	- When do you need to eject from Expo
+	- Code maintenance, updates and upgrades
+  
+### Last Chapter - Resources
+	

@@ -13,11 +13,11 @@
   
 ### Chapter 0 - Pre-requisites:
 
-1. Install Expo XDE
-2. Code editor & setup - VS Code, etc.
-3. Xcode to get the iOS emulator
-4. Install Expo Client on iOS or Android phone (minimum requirements for Expo client?)
-5. Download the repo
+1. Install [Expo XDE](https://expo.io/tools#xde) and sign up for the account.
+2. Install [Expo Client](https://expo.io/tools#client) - this is an app for your phone.
+3. Code editor & setup - VS Code with [React Native Tools](https://marketplace.visualstudio.com/items?itemName=vsmobile.vscode-react-native)
+4. If on Mac, install [Xcode](https://developer.apple.com/xcode/) to get the iOS emulator.
+5. If on other system, install [Android Studio](https://developer.android.com/studio/). Make sure you are able to run an app simulator.
 6. Sit and relax :-)
 
 # Before Lunch break - The Basics (4hrs)

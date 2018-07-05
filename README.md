@@ -24,8 +24,14 @@
 
 ### Chapter 1 - Introduction to React Native - (0.5h)
 
-1. What is React & React Native? 
+1. What is React & React Native?  
+   React Native is a framework that allows you to build **native** mobile apps using **JavaScript**. 
 2. Why need for React Native? 
+  - Learn Once, Write Anywhere - reuse ideas and skills across platforms
+  - make mobile dev experience as quick as that of a web developer
+  - maintain one codebase instead of two
+  - cost of hiring a native developer
+  - increase the pool of mobile developers
 3. Some misconceptions about React Native
 4. Where to seek help
   - [React Native docs](https://facebook.github.io/react-native/docs/getting-started.html)
@@ -34,6 +40,9 @@
 ### Chapter 2 - Setting up a new project - (1h)
 
 1. What are the various options available? (get the image of various options)
+  - [Expo & create new project](https://docs.expo.io/versions/v28.0.0/workflow/up-and-running)
+  - [Create React Native App](https://github.com/react-community/create-react-native-app#installation) 
+  - [project with native code](https://facebook.github.io/react-native/docs/getting-started#creating-a-new-application)
 2. Expo walkthrough
 3. Get basic text visible on screen, change text and see it reloading
 

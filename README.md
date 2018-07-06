@@ -61,18 +61,19 @@
 2.  Expo walkthrough
 3.  Get basic text visible on screen, change text and see it reloading
 
-![Start screen](media/start-screen-expo.png)
+<img src="media/start-screen-expo.png" alt="alt text" height="800px">
 
 ### Chapter 3 - Basic React Native components - (1h)
 
 This is what we are trying to do now:
 
-![I luv CYF](media/I-love-cyf.png)
+<img src="media/I-love-cyf.png" alt="I luv CYF" height="800px">
 
-1.  View
-2.  Text
-3.  Image
-4.  Button
+1. [View](https://facebook.github.io/react-native/docs/view)
+2. [Text]`(https://facebook.github.io/react-native/docs/text)
+3. [Image](https://facebook.github.io/react-native/docs/image)
+4. [Button](https://facebook.github.io/react-native/docs/button)
+5. [Alert](https://facebook.github.io/react-native/docs/alert)
 
 Add few components and switch between them using Button.
 

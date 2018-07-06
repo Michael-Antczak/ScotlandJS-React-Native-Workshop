@@ -70,7 +70,7 @@ This is what we are trying to do now:
 <img src="media/I-love-cyf.png" alt="I luv CYF" height="800px">
 
 1. [View](https://facebook.github.io/react-native/docs/view)
-2. [Text]`(https://facebook.github.io/react-native/docs/text)
+2. [Text](https://facebook.github.io/react-native/docs/text)
 3. [Image](https://facebook.github.io/react-native/docs/image)
 4. [Button](https://facebook.github.io/react-native/docs/button)
 5. [Alert](https://facebook.github.io/react-native/docs/alert)

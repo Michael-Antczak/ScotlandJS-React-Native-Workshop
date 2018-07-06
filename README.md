@@ -39,7 +39,7 @@
 
    > Is it for everybody and every case? NO.  
    
-   Read [here](https://medium.com/airbnb-engineering/react-native-at-airbnb-f95aa460be1c) about the Airbnb experience with React Native and the reasons to move away. Also, have a look at the follow up by [Charlie Cheever](https://blog.expo.io/should-we-use-react-native-1465d8b607ac) from Expo team. 
+   Read about the [Airbnb experience with React Native](https://medium.com/airbnb-engineering/react-native-at-airbnb-f95aa460be1c) and the reasons to move away. Also, have a look at the follow up by [Charlie Cheever](https://blog.expo.io/should-we-use-react-native-1465d8b607ac) from Expo team. 
    
    > Does it mean I don't need to know Java/Swift etc? YES and NO.  
    

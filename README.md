@@ -65,6 +65,10 @@
 
 ### Chapter 3 - Basic React Native components - (1h)
 
+This is what we are trying to do now:
+
+![I luv CYF](media/I-love-cyf.png)
+
 1.  View
 2.  Text
 3.  Image

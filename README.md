@@ -77,7 +77,7 @@ This is what we are trying to do now:
 
 Add few components and switch between them using Button.
 
-### Chapter 4 - Styling & Layout - (1h)
+### [Chapter 4 - Styling & Layout](https://github.com/Michael-Antczak/ScotlandJS-React-Native-Workshop/blob/master/chapters/4-layout%20.md) - (1h)
 
 1.  Basic styling in React Native - Flexbox!
 2.  Width and height

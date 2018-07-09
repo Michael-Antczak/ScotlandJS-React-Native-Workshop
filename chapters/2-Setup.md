@@ -9,4 +9,4 @@
 2.  Expo walkthrough
 3.  Get basic text visible on screen, change text and see it reloading
 
-<img src="media/start-screen-expo.png" alt="alt text" height="800px">
+<img src="../media/start-screen-expo.png" alt="alt text" height="600px">

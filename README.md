@@ -23,30 +23,13 @@
 
 # Before Lunch break - The Basics (4hrs)
 
-# Table of Contents
+## Table of Contents
 
-- [Chapter 1: Introduction to React Native](chapters/1 - Inroduction.md)
-- [Chapter 2: Setting up a new project](chapters/2 - Setup.md)
-- [Chapter 3: Basic React Native components](chapters/3 - Basics.md.md)
-- [Appendix A: Thank You's!](apA.md)
-
-### Chapter 1 - Introduction to React Native - (0.5h)
-
-### Chapter 2 - Setting up a new project - (1h)
-
-### Chapter 3 - Basic React Native components - (1h)
-
-### [Chapter 4 - Styling & Layout](https://github.com/Michael-Antczak/ScotlandJS-React-Native-Workshop/blob/master/chapters/4-layout%20.md) - (1h)
-
-1.  Basic styling in React Native - Flexbox!
-2.  Width and height
-
-### Chapter 5 - More React Native components - (1h)
-
-1.  TextInput
-2.  TouchableOpacity
-3.  ScrollView
-4.  FlatView
+- [Chapter 1: Introduction to React Native](chapters/1-Introduction.md)
+- [Chapter 2: Setting up a new project](chapters/2-Setup.md)
+- [Chapter 3: Basic React Native components](chapters/3-Basics.md)
+- [Chapter 4: Styling & Layout](chapters/4-Layout.md)
+- [Chapter 5: More React Native components](chapters/5-MoreComponents.md)
 
 # After Lunch break - We are building an app! (4hrs)
 

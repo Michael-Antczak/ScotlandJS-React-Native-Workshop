@@ -2,7 +2,7 @@
 
 This is what we are trying to build now:
 
-<img src="media/I-love-scotJS.gif" alt="I luv CYF" height="600px">
+<img src="../media/I-love-scotJS.gif" alt="I luv CYF" height="600px">
 
 Those are the components that we should use:
 

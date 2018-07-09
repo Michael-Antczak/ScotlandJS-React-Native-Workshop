@@ -21,6 +21,10 @@
 5.  If on other system, install [Android Studio](https://developer.android.com/studio/). Make sure you are able to run an app simulator.
 6.  Sit and relax :-)
 
+# Communication
+
+We are going to use [Slack channel](https://scotjs-workshop.slack.com/) for posting links, etc. Ask for the invite link if you have not joined yet.
+
 # Before Lunch break - The Basics (4hrs)
 
 ## Table of Contents

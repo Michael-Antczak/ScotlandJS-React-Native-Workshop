@@ -1,5 +1,7 @@
 # Chapter 4 - Styling & Layout
 
+There is a very good documentation about layout in React Native [here.](https://facebook.github.io/react-native/docs/flexbox)
+
 Here is a wee exercise :-) How many can you do?
 
 <img src="../media/layout/layout-1.png" alt="layout" height="600px">

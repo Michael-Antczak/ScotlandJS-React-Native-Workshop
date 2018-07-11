@@ -1,4 +1,4 @@
-# Chapter 5 - More React Native components
+# Chapter 6 - More React Native Components & Networking
 
 Also add fetching data.
 

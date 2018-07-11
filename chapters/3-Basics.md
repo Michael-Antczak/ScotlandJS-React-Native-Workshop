@@ -1,4 +1,4 @@
-# Chapter 3 - Basic React Native components
+# Chapter 3 - Basic React Native Components
 
 This is what we are trying to build now:
 
@@ -11,5 +11,7 @@ Those are the components that we will use:
 3.  [Image](https://facebook.github.io/react-native/docs/image)
 4.  [Button](https://facebook.github.io/react-native/docs/button)
 5.  [Alert](https://facebook.github.io/react-native/docs/alert)
+
+Components in React Native - custom components - wrapper around Text.
 
 ### Resources

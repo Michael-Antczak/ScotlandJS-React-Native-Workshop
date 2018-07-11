@@ -13,3 +13,5 @@
 <img src="../media/start-screen-expo.png" alt="alt text" height="600px">
 
 ### Resources
+
+- [Running on device](https://facebook.github.io/react-native/docs/running-on-device)

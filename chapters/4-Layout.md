@@ -1,6 +1,8 @@
-# Chapter 4 - Styling & Layout
+# Chapter 4 - Styling and Layout
 
 There is a very good documentation about layout in React Native [here.](https://facebook.github.io/react-native/docs/flexbox)
+
+### Resources
 
 Here is a wee exercise :-) How many can you do?
 

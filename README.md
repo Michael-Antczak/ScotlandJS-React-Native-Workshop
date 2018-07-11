@@ -12,7 +12,7 @@
 4.  Add links
 5.  Prepare slides
 
-### Chapter 0 - Pre-requisites:
+# Pre-requisites
 
 1.  Install [Expo XDE](https://expo.io/tools#xde) and sign up for the account.
 2.  Install [Expo Client](https://expo.io/tools#client) - this is an app for your phone.
@@ -25,25 +25,28 @@
 
 We are going to use [Slack channel](https://scotjs-workshop.slack.com/) for posting links, etc. Ask for the invite link if you have not joined yet.
 
-# Before Lunch break - The Basics (4hrs)
+# Before Lunch Break - The Basics
 
-## Table of Contents
+### Table of Contents
 
 - [Chapter 1: Introduction to React Native](chapters/1-Introduction.md)
-- [Chapter 2: Setting up a new project](chapters/2-Setup.md)
-- [Chapter 3: Basic React Native components](chapters/3-Basics.md)
-- [Chapter 4: Styling & Layout](chapters/4-Layout.md)
-- [Chapter 5: More React Native components & fetching data](chapters/5-MoreComponents.md)
+- [Chapter 2: Setting up a New Project](chapters/2-Setup.md)
+- [Chapter 3: Basic React Native Components](chapters/3-Basics.md)
+- [Chapter 4: Styling and Layout](chapters/4-Layout.md)
+- [Chapter 5: State and Lifecycle Methods](chapters/5-State.md)
 
-# After Lunch break - We are building an app! (4hrs)
+# After Lunch Break - A Bit More Advanced Stuff
 
-## Table of Contents
+### Table of Contents
 
-- [Chapter 6: App](chapters/6-App.md)
-- [Chapter 7: Navigation](chapters/7-Navigation.md)
-- [Chapter 8: Basics of animations](chapters/8-Animations.md)
-- [Chapter 9: ](chapters/9-.md)
-- [Chapter 10: ](chapters/10-.md)
+- [Chapter 6: More React Native Components & Networking](chapters/6-MoreComponents.md)
+- [Chapter 7: Debugging](chapters/7-Debugging.md)
+- [Chapter 8: Navigation](chapters/8-Navigation.md)
+- [Chapter 9: Basics of Animations](chapters/9-Animations.md)
+- [Chapter 10: Platform specific code](chapters/10-Platform.md)
+- [Chapter 11: End Talk](chapters/11-EndTalk.md)
+
+# An App - We are building an app!
 
 ### Next steps ??
 

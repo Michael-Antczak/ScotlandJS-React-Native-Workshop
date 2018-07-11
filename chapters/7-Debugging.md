@@ -1,6 +1,6 @@
-# Chapter 6 - Debugging
+# Chapter 7 - Debugging
 
-1.  What are we building?
+1.  How to debug in REact Native?
 
 ### Resources
 

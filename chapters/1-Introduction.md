@@ -24,3 +24,5 @@
 
     - [React Native docs](https://facebook.github.io/react-native/docs/getting-started.html)
     - [Expo docs](https://docs.expo.io/versions/latest/)
+
+### Resources

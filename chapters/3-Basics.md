@@ -11,3 +11,5 @@ Those are the components that we should use:
 3.  [Image](https://facebook.github.io/react-native/docs/image)
 4.  [Button](https://facebook.github.io/react-native/docs/button)
 5.  [Alert](https://facebook.github.io/react-native/docs/alert)
+
+### Resources

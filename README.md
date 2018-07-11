@@ -29,23 +29,17 @@
 - [Chapter 2: Setting up a new project](chapters/2-Setup.md)
 - [Chapter 3: Basic React Native components](chapters/3-Basics.md)
 - [Chapter 4: Styling & Layout](chapters/4-Layout.md)
-- [Chapter 5: More React Native components](chapters/5-MoreComponents.md)
+- [Chapter 5: More React Native components & fetching data](chapters/5-MoreComponents.md)
 
 # After Lunch break - We are building an app! (4hrs)
 
-### Chapter 6 - What are we going to build
+## Table of Contents
 
-Building something that involves 2h - calls an API,
-
-- renders a list of stuff, conditional, with a component
-
-Start using the Repo (containing navigation) - Define the Final Product
-
-### Chapter 7 - Navigation - (1h)
-
-1.  [React Native Navigation](https://reactnavigation.org/)
-
-### Chapter 8 - Basic of animations - (1h)
+- [Chapter 6: App](chapters/6-App.md)
+- [Chapter 7: Navigation](chapters/7-Navigation.md)
+- [Chapter 8: Basics of animations](chapters/8-Animations.md)
+- [Chapter 9: ](chapters/9-.md)
+- [Chapter 10: ](chapters/10-.md)
 
 ### Next steps ??
 

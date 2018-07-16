@@ -23,7 +23,7 @@
 
 4. Some misconceptions about React Native
 
-    > Is it for everybody and every case? 
+    #### Is it for everybody and every case? 
     
     NO.
 
@@ -62,7 +62,7 @@
     
     Also, have a look at the follow up by Charlie Cheever from Expo team [[3]](https://github.com/Michael-Antczak/ScotlandJS-React-Native-Workshop/blob/master/chapters/1-Introduction.md#resources).
 
-    > Does it mean I don't need to know Java/Kotlin/Objective-C/Swift etc? 
+    #### Does it mean I don't need to know Java/Kotlin/Objective-C/Swift etc? 
     
     YES and NO.
 

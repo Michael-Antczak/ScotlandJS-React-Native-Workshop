@@ -2,7 +2,7 @@
 
 1. What is React & React Native?
 
-    > **React Native** is a framework that allows you to build **native** mobile apps using **JavaScript**.  
+    > **[React Native](https://facebook.github.io/react-native/)** is a framework that allows you to build **native** mobile apps using **JavaScript**.  
       
       ------
     
@@ -35,7 +35,7 @@
 
 5. What is Expo? 
 
-    > **Expo** is a free and open source toolchain built around React Native to help you build native iOS and Android projects using JavaScript and React.
+    > **[Expo](https://expo.io/)** is a free and open source toolchain built around React Native to help you build native iOS and Android projects using JavaScript and React.
 
 
 6. Where to seek help

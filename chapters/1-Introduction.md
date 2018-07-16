@@ -6,7 +6,7 @@
       
       ------
     
-    > **React Native** is not about avoiding any native development, it’s more about boosting productivity and sharing business logic and practices among very different platforms. [[1]](https://github.com/Michael-Antczak/ScotlandJS-React-Native-Workshop/edit/master/chapters/1-Introduction.md#Resources) . 
+    > **React Native** is not about avoiding any native development, it’s more about boosting productivity and sharing business logic and practices among very different platforms. [[1]](https://github.com/Michael-Antczak/ScotlandJS-React-Native-Workshop/blob/master/chapters/1-Introduction.md#resources) . 
       
 
 2.  Why need for React Native?
@@ -23,7 +23,7 @@
     
     NO.
 
-    Read about the Airbnb experience with React Native [[2]](https://github.com/Michael-Antczak/ScotlandJS-React-Native-Workshop/edit/master/chapters/1-Introduction.md#Resources) and the reasons they are moving away. Also, have a look at the follow up by Charlie Cheever from Expo team [[3]](https://github.com/Michael-Antczak/ScotlandJS-React-Native-Workshop/edit/master/chapters/1-Introduction.md#Resources).
+    Read about the Airbnb experience with React Native [[2]](https://github.com/Michael-Antczak/ScotlandJS-React-Native-Workshop/blob/master/chapters/1-Introduction.md#resources) and the reasons they are moving away. Also, have a look at the follow up by Charlie Cheever from Expo team [[3]](https://github.com/Michael-Antczak/ScotlandJS-React-Native-Workshop/blob/master/chapters/1-Introduction.md#resources).
 
     > Does it mean I don't need to know Java/Kotlin/Objective-C/Swift etc? 
     

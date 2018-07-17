@@ -114,14 +114,14 @@ const styles = StyleSheet.create({
   }
 });
 ```
-What happens if we want to set up a default screen at the startup time? We can use the optional **StackNavigatorConfig** object:
+What happens if we want to set up a **default screen** at the startup time? We can use the optional **StackNavigatorConfig** object:
 ```js
 {
     initialRouteName: 'Home',
 }
 ``` 
   
-Notice that we now have an empty header. What we want is to add route name to the header on List and Map screen, but hide the header on Home screen. So let's start with adding ANYTHING to the header:
+Notice that we now have an empty header. What we want is to **add route name to the header** on List and Map screen, but hide the header on Home screen. So let's start with adding ANYTHING to the header:
 ```js
 navigationOptions: {
     title: "HEADER"
@@ -140,7 +140,7 @@ navigationOptions: {
 }
 ```
 
-Ok, how about if we want to pass data to the screen? How do we do that? We can [supply params object](https://reactnavigation.org/docs/en/navigation-prop.html#navigate-link-to-other-screens) to navigate function:
+Ok, how about if we want to **pass data to the screen**? How do we do that? We can [supply params object](https://reactnavigation.org/docs/en/navigation-prop.html#navigate-link-to-other-screens) to navigate function:
 ```js
 <Button
       title="Go to Map"
@@ -150,19 +150,50 @@ Ok, how about if we want to pass data to the screen? How do we do that? We can [
 And then we can retrive it inside of the screen in two ways: 
 ```
 static navigationOptions = ({ navigation }) => {
-    return {
-      title: navigation.state.params.name
-    };
+  return {
+    title: navigation.state.params.name
   };
+};
 ```
 or
 ```
 static navigationOptions = ({ navigation }) => {
-    return {
-      title: navigation.getParam("name")
-    };
+  return {
+    title: navigation.getParam("name")
   };
+};
 ```
+Ok, next we would like to [**style our headers**](https://reactnavigation.org/docs/en/headers.html#adjusting-header-styles). How do we do that? 
+
+```js
+navigationOptions: {
+  headerStyle: {
+    backgroundColor: "#f4511e"
+  },
+  headerTintColor: "#fff",
+  headerTitleStyle: {
+    fontWeight: "bold"
+  }
+}
+```
+One more thing. Can we render a [**component inside the header**](https://reactnavigation.org/docs/en/headers.html#replacing-the-title-with-a-custom-component)? Sure!
+
+```js
+const Header = props => {
+  return <Text>{props.title}</Text>;
+};
+```
+and this time we need to use **headerTitle** instead of **title** property inside the navigationOptions:
+```js
+static navigationOptions = {
+  headerTitle: <Header title="The List" />,
+  headerStyle: {
+    backgroundColor: "steelblue"
+  },
+  headerTintColor: "#f8f"
+};
+```
+
 
 ### Resources
 

@@ -73,6 +73,12 @@ const styles = StyleSheet.create({
 });
 
 ```
+Let's check out this [navigation props](https://reactnavigation.org/docs/en/navigation-prop.html):
+
+```js
+console.log(this.props)
+```
+
 In a similar fashion we create two other screens: ListScreen & MapScreen, but this time with a button pointing back to HomeScreen, like this: 
 
 ```js
@@ -108,21 +114,31 @@ const styles = StyleSheet.create({
   }
 });
 ```
-What happens if we want to set up a default screen at the startup time? We can use the optional StackNavigatorConfig object:
+What happens if we want to set up a default screen at the startup time? We can use the optional **StackNavigatorConfig** object:
 ```js
 {
     initialRouteName: 'Home',
 }
 ``` 
-Let's check out this [navigation props](https://reactnavigation.org/docs/en/navigation-prop.html):
-
-```js
-console.log(this.props)
-```
   
-Notice that we now have an empty header. What we want is to add route name to the header on List and Map screen, but hide the header on Home screen. 
-
-
+Notice that we now have an empty header. What we want is to add route name to the header on List and Map screen, but hide the header on Home screen. So let's start with adding ANYTHING to the header:
+```js
+navigationOptions: {
+    title: "HEADER"
+}
+```
+But this renders the same header on every route, so we want to customise per screen:
+```js
+navigationOptions: {
+     title: 'MAP'
+}
+```
+And finally we want to hide header on Home screen:
+```js
+navigationOptions: {
+     header: null
+}
+```
 ### Resources
 
 - [Navigating Between Screens](https://facebook.github.io/react-native/docs/navigation) in React Native docs.

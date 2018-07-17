@@ -139,6 +139,16 @@ navigationOptions: {
      header: null
 }
 ```
+
+Ok, how about if we want to pass data to the screen? How do we do that? We can [supply params object](https://reactnavigation.org/docs/en/navigation-prop.html#navigate-link-to-other-screens) to navigate function:
+```js
+<Button
+      title="Go to Map"
+      onPress={() => this.props.navigation.navigate("Map", { name: "Michael" })}
+/>
+```
+
+
 ### Resources
 
 - [Navigating Between Screens](https://facebook.github.io/react-native/docs/navigation) in React Native docs.

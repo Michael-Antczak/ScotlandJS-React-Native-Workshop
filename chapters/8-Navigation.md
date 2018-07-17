@@ -147,7 +147,22 @@ Ok, how about if we want to pass data to the screen? How do we do that? We can [
       onPress={() => this.props.navigation.navigate("Map", { name: "Michael" })}
 />
 ```
-
+And then we can retrive it inside of the screen in two ways: 
+```
+static navigationOptions = ({ navigation }) => {
+    return {
+      title: navigation.state.params.name
+    };
+  };
+```
+or
+```
+static navigationOptions = ({ navigation }) => {
+    return {
+      title: navigation.getParam("name")
+    };
+  };
+```
 
 ### Resources
 

@@ -59,4 +59,8 @@ We are going to use [Slack channel](https://scotjs-workshop.slack.com/) for post
     - When do you need to eject from Expo
     - Code maintenance, updates and upgrades
 
-### Last Chapter - Resources
+### Resources
+- [Awesome React Native](https://github.com/jondot/awesome-react-native)
+- [Use React Native](http://www.reactnative.com/)
+- [React Native Express](http://www.reactnativeexpress.com/)
+- [Learn React Native](https://www.fullstackreact.com/react-native/)

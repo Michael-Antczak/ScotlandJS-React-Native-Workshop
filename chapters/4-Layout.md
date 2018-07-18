@@ -1,8 +1,32 @@
 # Chapter 4 - Styling and Layout
 
+## Styling
+
+- We just use JavaScript objects
+- Names written camelCased (backgroundColor instead of background-color)
+- Limited inheritance for `<Text />`
+
+```js
+// the text with "highlight" will have both the styles from text and highlight
+<Text style={styles.text]}>Some text <Text style={styles.highlight} > that needs highlighting.</Text> </Text>
+
+```
+
+- You could use a normal object but use `StyleSheet.create`
+- You can have mulitple objects in the array of styles `<Text style={[styles.bigblue, styles.red]}>Some text</Text>`
+
+[Read about Styling in React Native]https://facebook.github.io/react-native/docs/style
+
+## Layout
+
+- Use Flexbox for layout
+- `flexDirection`, `alignItems`, and `justifyContent`
+
 There is a very good documentation about layout in React Native [here.](https://facebook.github.io/react-native/docs/flexbox)
 
-### Resources
+[Layout Properties](https://facebook.github.io/react-native/docs/layout-props)
+
+### Exercises
 
 Here is a wee exercise :-) How many can you do?
 

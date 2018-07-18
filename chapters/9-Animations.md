@@ -6,14 +6,14 @@ We use mostly a declarative library called [Animated API](https://facebook.githu
 
 The steps to create a basic animation:
 
-1. We need to create a value to animate first and set it to an initial value:
+#### 1. We need to create a value to animate first and set it to an initial value:
 
 ```js
 state = {
   animatedValue: new Animated.Value(0)
 }
 ```
-2. Then we want to animate this value over time: 
+#### 2. Then we want to animate this value over time: 
 
 ```js
 Animated.timing(
@@ -25,7 +25,7 @@ Animated.timing(
 ).start(); // Start the animation
 ```
 
-3. And finally use it:
+#### 3. And finally use it:
 
 ```js 
 <Animated.View

@@ -48,17 +48,6 @@ We are going to use [Slack channel](https://scotjs-workshop.slack.com/) for post
 
 # An App - We are building an app!
 
-### Next steps ??
-
-    - Expo docs: Fonts, AppLoading, MapView
-    - Debugging React Native applications
-    - Advanced: Authentication, backend, databases, push notifications
-    - State management
-    - Platform specific apps
-    - App shipping to Google Play and Apple Store
-    - When do you need to eject from Expo
-    - Code maintenance, updates and upgrades
-
 ### Resources
 - [Awesome React Native](https://github.com/jondot/awesome-react-native)
 - [Use React Native](http://www.reactnative.com/)

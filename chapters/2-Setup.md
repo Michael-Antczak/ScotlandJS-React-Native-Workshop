@@ -9,10 +9,11 @@
 
 ### Expo walkthrough
 
-<img src="../media/expo.png" alt="alt text" height="600px">
+**After launch**  
+<img src="../media/expo.png" alt="alt text" >
 
-
-<img src="../media/expo-1.png" alt="alt text" height="600px">
+**After opening the project**
+<img src="../media/expo-1.png" alt="alt text" >
 
 ### Get basic text visible on screen, change text and see it reloading
 

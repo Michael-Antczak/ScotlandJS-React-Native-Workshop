@@ -14,4 +14,9 @@ Those are the components that we will use:
 
 Components in React Native - custom components - wrapper around Text.
 
+
+> **RN Wisdom**: Just wrap components straight away when you start a project. Don't use `<Text>` directly, have your own `<AppText>` or similar. You will come to need it.
+
+> **RN Wisdom**: Use a `scale` function to have relative widths and heights. It will save you a lot of headache with layout issues (especially on android)
+
 ### Resources

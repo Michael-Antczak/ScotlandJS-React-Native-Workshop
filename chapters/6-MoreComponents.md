@@ -1,6 +1,6 @@
-# Chapter 6 - More React Native Components & Networking
+# Chapter 6 - More React Native Components
 
-Also add fetching data.
+
 
 ### Resources
 
@@ -8,4 +8,3 @@ Also add fetching data.
 - [TouchableOpacity](https://facebook.github.io/react-native/docs/touchableopacity)
 - [ScrollView](https://facebook.github.io/react-native/docs/scrollview)
 - [FlatList](https://facebook.github.io/react-native/docs/flatlist)
-- [Networking](https://facebook.github.io/react-native/docs/network)

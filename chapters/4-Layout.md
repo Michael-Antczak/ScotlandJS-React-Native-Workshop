@@ -5,6 +5,13 @@
 - We just use JavaScript objects
 - Names written camelCased (backgroundColor instead of background-color)
 - Limited inheritance for `<Text />`
+
+```js
+// the text with "highlight" will have both the styles from text and highlight
+<Text style={styles.text]}>Some text <Text style={styles.highlight} > that needs highlighting.</Text> </Text>
+
+```
+
 - You could use a normal object but use `StyleSheet.create`
 - You can have mulitple objects in the array of styles `<Text style={[styles.bigblue, styles.red]}>Some text</Text>`
 

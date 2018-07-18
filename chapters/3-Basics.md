@@ -17,6 +17,37 @@ Components in React Native - custom components - wrapper around Text.
 
 > **RN Wisdom**: Just wrap components straight away when you start a project. Don't use `<Text>` directly, have your own `<AppText>` or similar. You will come to need it.
 
+```js
+class AppText extends Component {
+  render() {
+    return (
+        <Text style={{fontSize: 20}}>{this.props.children}</Text>
+    );
+  }
+}
+
+// Then use somewhere in the app
+<AppText>Hello</AppText>
+```
+
 > **RN Wisdom**: Use a `scale` function to have relative widths and heights. It will save you a lot of headache with layout issues (especially on android)
+
+```js
+import { Dimensions } from 'react-native'
+const { width, height } = Dimensions.get('window')
+
+// Guideline sizes are based on standard ~5" screen mobile device
+const guidelineBaseWidth = 350
+const guidelineBaseHeight = 680
+
+const scale = size => width / guidelineBaseWidth * size
+
+
+// then in a style
+container: {
+  height: scale(200),
+  margin: scale(10)
+}
+```
 
 ### Resources

@@ -176,7 +176,7 @@ navigationOptions: {
   }
 }
 ```
-One more thing. Can we render a [**component inside the header**](https://reactnavigation.org/docs/en/headers.html#replacing-the-title-with-a-custom-component)? Sure!
+Can we render a [**component inside the header**](https://reactnavigation.org/docs/en/headers.html#replacing-the-title-with-a-custom-component)? Sure!
 
 ```js
 const Header = props => {
@@ -194,6 +194,19 @@ static navigationOptions = {
 };
 ```
 
+How about if we want to [render a button on the right hand side](https://reactnavigation.org/docs/en/header-buttons.html)? 
+```js
+static navigationOptions = {
+    headerTitle: <LogoTitle />,
+    headerRight: (
+      <Button
+        onPress={() => alert('This is a button!')}
+        title="Info"
+        color="#fff"
+      />
+    ),
+};
+```
 
 ### Resources
 

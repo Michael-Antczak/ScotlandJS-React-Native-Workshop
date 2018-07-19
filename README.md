@@ -27,7 +27,12 @@ We are going to use [Slack channel](https://scotjs-workshop.slack.com/) for post
 
 # What we want you to take after this workshop
 
-[Cory House](https://twitter.com/housecor/status/1019199012908552192)
+This is a piece of advice that quite resonates with me. It is by [Cory House.](https://twitter.com/housecor/status/1019199012908552192)
+
+We want you to:
+
+- explore with an open mind what React Native can offer to you,
+- and hopefully after the end of the workshop you will consider it worth investing your own time to learn more of React Native.
 
 # Before Lunch Break - The Basics
 

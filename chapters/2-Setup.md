@@ -20,9 +20,18 @@
 
 <img src="../media/start-screen-expo.png" alt="alt text" height="600px">
 
+### Folder structure - CRNA
+
+<img src="../media/rn-folder-structure.jpg" alt="alt text">
+
+### Folder structure - Expo
+
+<img src="../media/expo-folder-structure.jpg" alt="alt text">
+
 ### Resources
 
 - [Running on device](https://facebook.github.io/react-native/docs/running-on-device)
 - [Hot Reloading](https://facebook.github.io/react-native/blog/2016/03/24/introducing-hot-reloading.html#hot-reloading) on React Native blog
 - [Hot Reloading](https://www.youtube.com/watch?v=2uQzVi-KFuc&feature=youtu.be) video
 - [What is the difference between Hot Reloading and Live Reloading in React Native?](https://stackoverflow.com/questions/41428954/what-is-the-difference-between-hot-reloading-and-live-reloading-in-react-native)
+- [Configuration with app.json](https://docs.expo.io/versions/latest/workflow/configuration)

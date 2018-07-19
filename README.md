@@ -45,7 +45,7 @@ We are going to use [Slack channel](https://scotjs-workshop.slack.com/) for post
 
 ### Table of Contents
 
-- [Chapter 6: More React Native Components & Networking](chapters/6-MoreComponents.md)
+- [Chapter 6: More React Native Components](chapters/6-MoreComponents.md)
 - [Chapter 7: Debugging](chapters/7-Debugging.md)
 - [Chapter 8: Navigation](chapters/8-Navigation.md)
 - [Chapter 9: Basics of Animations](chapters/9-Animations.md)

@@ -29,8 +29,6 @@ We are going to use [Slack channel](https://scotjs-workshop.slack.com/) for post
 
 [Cory House](https://twitter.com/housecor/status/1019199012908552192)
 
-
-
 # Before Lunch Break - The Basics
 
 ### Table of Contents
@@ -45,9 +43,9 @@ We are going to use [Slack channel](https://scotjs-workshop.slack.com/) for post
 
 ### Table of Contents
 
-- [Chapter 6: More React Native Components](chapters/6-MoreComponents.md)
-- [Chapter 7: Debugging](chapters/7-Debugging.md)
-- [Chapter 8: Navigation](chapters/8-Navigation.md)
+- [Chapter 6: Navigation](chapters/6-Navigation.md)
+- [Chapter 7: More React Native Components](chapters/7-MoreComponents.md)
+- [Chapter 8: Debugging](chapters/8-Debugging.md)
 - [Chapter 9: Basics of Animations](chapters/9-Animations.md)
 - [Chapter 10: Platform specific code](chapters/10-Platform.md)
 - [Chapter 11: End Talk](chapters/11-EndTalk.md)
@@ -55,6 +53,7 @@ We are going to use [Slack channel](https://scotjs-workshop.slack.com/) for post
 # An App - We are building an app!
 
 ### Resources
+
 - [Awesome React Native](https://github.com/jondot/awesome-react-native)
 - [Use React Native](http://www.reactnative.com/)
 - [React Native Express](http://www.reactnativeexpress.com/)

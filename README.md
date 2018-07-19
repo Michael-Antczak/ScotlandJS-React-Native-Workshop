@@ -25,6 +25,12 @@
 
 We are going to use [Slack channel](https://scotjs-workshop.slack.com/) for posting links, etc. Ask for the invite link if you have not joined yet.
 
+# What we want you to take after this workshop
+
+[Cory House](https://twitter.com/housecor/status/1019199012908552192)
+
+
+
 # Before Lunch Break - The Basics
 
 ### Table of Contents

@@ -13,9 +13,9 @@ These are some common patterns where `state` used in a typical RN application.
 ### Fetching Data through AJAX
 
 ```js
-const ApiKey = 'AIzaSyAl_gQqNibe6FCE_MRBUyOOsQgmZJZvAjU';
+const apiKey = 'AIzaSyAl_gQqNibe6FCE_MRBUyOOsQgmZJZvAjU';
 const searchQuery = 'Codebase Edinburgh';
-const url = `https://maps.googleapis.com/maps/api/place/findplacefromtext/json?input=${searchQuery}&inputtype=textquery&fields=photos,formatted_address,name,rating,opening_hours,geometry&key=${ApiKey}`
+const url = `https://maps.googleapis.com/maps/api/place/findplacefromtext/json?input=${searchQuery}&inputtype=textquery&fields=photos,formatted_address,name,rating,opening_hours,geometry&key=${apiKey}`
 
 componentDidMount() {
     fetch(url).then(response => response.json())
@@ -34,6 +34,7 @@ async componentDidMount() {
     this.setState({placeInfo: data})
 }
 ```
+[Google Api Response Sample](https://maps.googleapis.com/maps/api/place/findplacefromtext/json?input=Codebase%20Edinburgh&inputtype=textquery&fields=photos,formatted_address,name,rating,opening_hours,geometry&key=AIzaSyD5tpHMFE1lKy2XQym1KB30uSjW12qVWHY)
 
 ### Keeping track of form values
 

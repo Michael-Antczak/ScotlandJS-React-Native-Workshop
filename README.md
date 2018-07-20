@@ -50,8 +50,8 @@ We want you to:
 ### Table of Contents
 
 - [Chapter 6: Navigation](chapters/6-Navigation.md)
-- [Chapter 7: More React Native Components](chapters/7-MoreComponents.md)
-- [Chapter 8: Debugging](chapters/8-Debugging.md)
+- [Chapter 7: Debugging](chapters/7-Debugging.md)
+- [Chapter 8: More React Native Components](chapters/8-MoreComponents.md)
 - [Chapter 9: Basics of Animations](chapters/9-Animations.md)
 - [Chapter 10: Platform specific code](chapters/10-Platform.md)
 - [Chapter 11: End Talk](chapters/11-EndTalk.md)

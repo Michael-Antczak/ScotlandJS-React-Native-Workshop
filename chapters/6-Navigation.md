@@ -1,4 +1,4 @@
-# Chapter 8 - Navigation
+# Chapter 6 - Navigation
 
 ### What are the navigation options available in React Native?
 
@@ -8,7 +8,7 @@
 - [NavigatorIOS](https://facebook.github.io/react-native/docs/navigation#navigatorios) - for iOS only.
 - [React Router Native](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-native)
 
-We are going to use **[React Navigation](https://reactnavigation.org/)**. Check this [Pitch & Anti-pitch](https://reactnavigation.org/docs/en/pitch.html) page for the pros and cons.  
+We are going to use **[React Navigation](https://reactnavigation.org/)**. Check this [Pitch & Anti-pitch](https://reactnavigation.org/docs/en/pitch.html) page for the pros and cons.
 
 Here are the [installation instructions](https://reactnavigation.org/docs/en/getting-started.html#installation).
 
@@ -21,6 +21,7 @@ createStackNavigator(RouteConfigs, StackNavigatorConfig);
 ```
 
 Here is the basic Root component:
+
 ```js
 import React from "react";
 import { createStackNavigator } from "react-navigation";
@@ -36,7 +37,9 @@ const Root = createStackNavigator({
 
 export default Root;
 ```
+
 Now let's create our HomeScreen
+
 ```js
 import React from "react";
 import { StyleSheet, Text, View, Button } from "react-native";
@@ -71,15 +74,15 @@ const styles = StyleSheet.create({
     fontSize: 26
   }
 });
-
 ```
+
 Let's check out this [navigation props](https://reactnavigation.org/docs/en/navigation-prop.html):
 
 ```js
-console.log(this.props)
+console.log(this.props);
 ```
 
-In a similar fashion we create two other screens: ListScreen & MapScreen, but this time with a button pointing back to HomeScreen, like this: 
+In a similar fashion we create two other screens: ListScreen & MapScreen, but this time with a button pointing back to HomeScreen, like this:
 
 ```js
 import React from "react";
@@ -114,40 +117,50 @@ const styles = StyleSheet.create({
   }
 });
 ```
+
 What happens if we want to set up a **default screen** at the startup time? We can use the optional **StackNavigatorConfig** object:
+
 ```js
 {
     initialRouteName: 'Home',
 }
-``` 
-  
+```
+
 Notice that we now have an empty header. What we want is to **add route name to the header** on List and Map screen, but hide the header on Home screen. So let's start with adding ANYTHING to the header:
+
 ```js
 navigationOptions: {
-    title: "HEADER"
+  title: "HEADER";
 }
 ```
+
 But this renders the same header on every route, so we want to customise per screen:
+
 ```js
 navigationOptions: {
-     title: 'MAP'
+  title: "MAP";
 }
 ```
+
 And finally we want to hide header on Home screen:
+
 ```js
 navigationOptions: {
-     header: null
+  header: null;
 }
 ```
 
 Ok, how about if we want to **pass data to the screen**? How do we do that? We can [supply params object](https://reactnavigation.org/docs/en/navigation-prop.html#navigate-link-to-other-screens) to navigate function:
+
 ```js
 <Button
-      title="Go to Map"
-      onPress={() => this.props.navigation.navigate("Map", { name: "Michael" })}
+  title="Go to Map"
+  onPress={() => this.props.navigation.navigate("Map", { name: "Michael" })}
 />
 ```
-And then we can retrive it inside of the screen in two ways: 
+
+And then we can retrive it inside of the screen in two ways:
+
 ```
 static navigationOptions = ({ navigation }) => {
   return {
@@ -155,7 +168,9 @@ static navigationOptions = ({ navigation }) => {
   };
 };
 ```
+
 or
+
 ```
 static navigationOptions = ({ navigation }) => {
   return {
@@ -163,7 +178,8 @@ static navigationOptions = ({ navigation }) => {
   };
 };
 ```
-Ok, next we would like to [**style our headers**](https://reactnavigation.org/docs/en/headers.html#adjusting-header-styles). How do we do that? 
+
+Ok, next we would like to [**style our headers**](https://reactnavigation.org/docs/en/headers.html#adjusting-header-styles). How do we do that?
 
 ```js
 navigationOptions: {
@@ -176,6 +192,7 @@ navigationOptions: {
   }
 }
 ```
+
 Can we render a [**component inside the header**](https://reactnavigation.org/docs/en/headers.html#replacing-the-title-with-a-custom-component)? Sure!
 
 ```js
@@ -183,7 +200,9 @@ const Header = props => {
   return <Text>{props.title}</Text>;
 };
 ```
+
 and this time we need to use **headerTitle** instead of **title** property inside the navigationOptions:
+
 ```js
 static navigationOptions = {
   headerTitle: <Header title="The List" />,
@@ -194,7 +213,8 @@ static navigationOptions = {
 };
 ```
 
-How about if we want to [render a button on the right hand side](https://reactnavigation.org/docs/en/header-buttons.html)? 
+How about if we want to [render a button on the right hand side](https://reactnavigation.org/docs/en/header-buttons.html)?
+
 ```js
 static navigationOptions = {
     headerTitle: <LogoTitle />,

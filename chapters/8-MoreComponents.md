@@ -1,6 +1,4 @@
-# Chapter 6 - More React Native Components
-
-
+# Chapter 7 - More React Native Components
 
 ### Resources
 

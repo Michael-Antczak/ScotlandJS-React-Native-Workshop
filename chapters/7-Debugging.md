@@ -17,8 +17,6 @@ There is an argument that this fits the fast development philosophy of RN to dev
 - Enabling Network inspection considerably slows the the debugger
 - Install Redux DevTools - if your app is using Redux, it's a great way to debug (and also reverse-engineer) code
 
-
-
 > **RN Wisdom**: Optimsations - Use the memory and CPU profilers of RN Debugger to identify bottlenecks and unexpected behaviour in your code. You'd be surprised about what you find!
 
 ## Resources

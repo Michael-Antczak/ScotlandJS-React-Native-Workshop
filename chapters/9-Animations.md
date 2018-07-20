@@ -50,7 +50,9 @@ Animated.timing(
 - Animated.View
 
 ### Exercise
-<insert animation 1 gif>
+<img src="../media/animations.gif"  height="600px">
+
+If you are stuck, then have a look at the [source code.](https://github.com/Michael-Antczak/animations.git)
 
 ### Resources
 

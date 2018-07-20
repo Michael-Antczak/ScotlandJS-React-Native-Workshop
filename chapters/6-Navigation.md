@@ -8,9 +8,9 @@
 - [NavigatorIOS](https://facebook.github.io/react-native/docs/navigation#navigatorios) - for iOS only.
 - [React Router Native](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-native)
 
-We are going to use **[React Navigation](https://reactnavigation.org/)**. Check this [Pitch & Anti-pitch](https://reactnavigation.org/docs/en/pitch.html) page for the pros and cons.
+We are going to use **[React Navigation.](https://reactnavigation.org/)** Check this [Pitch & Anti-pitch](https://reactnavigation.org/docs/en/pitch.html) page for the pros and cons.
 
-Here are the [installation instructions](https://reactnavigation.org/docs/en/getting-started.html#installation).
+Here are the [installation instructions.](https://reactnavigation.org/docs/en/getting-started.html#installation)
 
 ### Basic Stack Navigator
 
@@ -76,13 +76,13 @@ const styles = StyleSheet.create({
 });
 ```
 
-Let's check out this [navigation props](https://reactnavigation.org/docs/en/navigation-prop.html):
+Let's check out this [navigation props:](https://reactnavigation.org/docs/en/navigation-prop.html)
 
 ```js
 console.log(this.props);
 ```
 
-In a similar fashion we create two other screens: ListScreen & MapScreen, but this time with a button pointing back to HomeScreen, like this:
+In a similar fashion we create two other screens: ListScreen & MapScreen, but this time with a button pointing back to HomeScreen, something like this:
 
 ```js
 import React from "react";
@@ -126,11 +126,11 @@ What happens if we want to set up a **default screen** at the startup time? We c
 }
 ```
 
-Notice that we now have an empty header. What we want is to **add route name to the header** on List and Map screen, but hide the header on Home screen. So let's start with adding ANYTHING to the header:
+Notice that we now have an empty header. What we want is to **add route name to the header** on List and Map screen, but hide the header on the Home screen. So let's start with adding ANYTHING to the header:
 
 ```js
 navigationOptions: {
-  title: "HEADER";
+  title: "ScotlandJS";
 }
 ```
 
@@ -139,6 +139,14 @@ But this renders the same header on every route, so we want to customise per scr
 ```js
 navigationOptions: {
   title: "MAP";
+}
+```
+
+and
+
+```js
+navigationOptions: {
+  title: "LIST";
 }
 ```
 
@@ -178,6 +186,9 @@ static navigationOptions = ({ navigation }) => {
   };
 };
 ```
+
+But this will be useful for creating a cutom header. Can we also used the passed data inside of the screen itself?
+Yes, this is left as an exercise :-)
 
 Ok, next we would like to [**style our headers**](https://reactnavigation.org/docs/en/headers.html#adjusting-header-styles). How do we do that?
 
@@ -227,6 +238,49 @@ static navigationOptions = {
     ),
 };
 ```
+
+So how does the navigation props work? When do we have [access](https://reactnavigation.org/docs/en/connecting-navigation-prop.html) to them?
+
+Basically **this.props** is only available inside the screens. If you want to have access to navigation props inside any component, then you have two options:
+
+1.  Pass navigation props to the component
+    ```js
+    <MyBackButton navigation={this.props.navigation} />
+    ```
+2.  Use Higher Order Component
+
+    ```js
+    import { withNavigation } from "react-navigation";
+
+    class MyBackButton extends React.Component {
+      render() {
+        return (
+          <Button
+            title="Back"
+            onPress={() => {
+              this.props.navigation.goBack();
+            }}
+          />
+        );
+      }
+    }
+
+    export default withNavigation(MyBackButton);
+    ```
+
+Are there any **other navigators** available?
+
+1.  [SwitchNavigator](https://reactnavigation.org/docs/en/switch-navigator.html)
+2.  [TabNavigator](https://reactnavigation.org/docs/en/tab-navigator.html)
+3.  [BottomTabNavigator](https://reactnavigation.org/docs/en/bottom-tab-navigator.html)
+4.  [MaterialBottomTabNavigator](https://reactnavigation.org/docs/en/material-bottom-tab-navigator.html)
+5.  [MaterialTopTabNavigator](https://reactnavigation.org/docs/en/material-top-tab-navigator.html)
+
+Is it possible to **compose navigators**? 
+
+<img src="../media/nav-composition.gif" height="600px" >
+
+You can also check out the [example repo.](https://github.com/Michael-Antczak/ScotlandJS-composed-navigation-example)
 
 ### Resources
 

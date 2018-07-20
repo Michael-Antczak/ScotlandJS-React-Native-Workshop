@@ -36,6 +36,7 @@ async componentDidMount() {
 ```
 [Google Api Response Sample](https://maps.googleapis.com/maps/api/place/findplacefromtext/json?input=Codebase%20Edinburgh&inputtype=textquery&fields=photos,formatted_address,name,rating,opening_hours,geometry&key=AIzaSyD5tpHMFE1lKy2XQym1KB30uSjW12qVWHY)
 
+[Get a Google Api Key](https://developers.google.com/places/web-service/get-api-key)
 ### Keeping track of form values
 
 ```js

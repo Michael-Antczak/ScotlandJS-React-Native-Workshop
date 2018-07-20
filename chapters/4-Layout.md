@@ -10,7 +10,7 @@
 
 ```js
 // the text with "highlight" will have both the styles from text and highlight
-<Text style={styles.text]}>Some text <Text style={styles.highlight} > that needs highlighting.</Text> </Text>
+<Text style={styles.text}>Some text <Text style={styles.highlight} > that needs highlighting.</Text> </Text>
 ```
 
 ## Layout

@@ -16,10 +16,11 @@
 
 1.  Install [Expo XDE](https://expo.io/tools#xde) and sign up for the account.
 2.  Install [Expo Client](https://expo.io/tools#client) - this is an app for your phone.
-3.  Code editor & setup - VS Code with [React Native Tools](https://marketplace.visualstudio.com/items?itemName=vsmobile.vscode-react-native)
-4.  If on Mac, install [Xcode](https://developer.apple.com/xcode/) to get the iOS emulator.
-5.  If on other system, install [Android Studio](https://developer.android.com/studio/). Make sure you are able to run an app simulator.
-6.  Sit and relax :-)
+3.  Install [Create React Native App](https://github.com/react-community/create-react-native-app#installation).
+4.  Code editor & setup - VS Code with [React Native Tools](https://marketplace.visualstudio.com/items?itemName=vsmobile.vscode-react-native).
+5.  If on Mac, install [Xcode](https://developer.apple.com/xcode/) to get the iOS emulator.
+6.  If on other system, install [Android Studio](https://developer.android.com/studio/). Make sure you are able to run an app simulator.
+7.  Sit and relax :-)
 
 # Communication
 

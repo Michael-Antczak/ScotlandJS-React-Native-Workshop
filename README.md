@@ -2,36 +2,43 @@
 
 ### ScotlandJS 2018 React Native Workshop
 
-# The Workshop is run by two mentors from [CodeYourFuture:](https://twitter.com/CodeYourFuture_) 
+# The Workshop is run by:
 
-### Mozafar Haider
+### two mentors from [CodeYourFuture:](https://twitter.com/CodeYourFuture_) 
+
+#### Mozafar Haider
 [Twitter](https://twitter.com/kabaros) 
 
 
-### Michael Antczak
+#### Michael Antczak
 [Twitter](https://twitter.com/AntczakMichael)
 
-# CodeYourFuture Students helping us today are:
+### CodeYourFuture Students helping us today are:
 
-### Etzali Hernández
+#### Etzali Hernández
 [Twitter](https://twitter.com/TopiMorita) 
 
-### Yohannes Fekadu
+#### Yohannes Fekadu
 [Twitter](https://twitter.com/fekadu_yohannes) 
 
-### Khaled Kharaz
+#### Khaled Kharaz
 No Twitter :(
 
-### Khaled Zaky
+#### Khaled Zaky
 [Twitter](https://twitter.com/khaledkzy) 
 
-### Islam Dudaev
+#### Islam Dudaev
 [Website](https://islamdudaev.ru) 
 
-# We also have:
+### We also have:
 
-### Daniel Joyce
+#### Daniel Joyce
 [Twitter](https://twitter.com/DanielToDev) 
+
+# Code of Conduct
+The ScotlandJS [code of conduct](http://scotlandjs.com/codeofconduct/) applies to our workshop and the social event.
+Please ensure you are familiar with it.
+
 
 # Pre-requisites
 

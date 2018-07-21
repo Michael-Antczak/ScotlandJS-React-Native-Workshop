@@ -4,7 +4,7 @@
 
 # The Workshop is run by:
 
-We are all part of [CodeYourFuture:](https://twitter.com/CodeYourFuture_) 
+[CodeYourFuture](https://twitter.com/CodeYourFuture_) mentors
 
 **Michael Antczak** - [Twitter](https://twitter.com/AntczakMichael)
 

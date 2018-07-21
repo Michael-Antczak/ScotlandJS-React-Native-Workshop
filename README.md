@@ -2,15 +2,36 @@
 
 ### ScotlandJS 2018 React Native Workshop
 
-### TODO - To Be Removed
+# The Workshop is run by two mentors from [CodeYourFuture:](https://twitter.com/CodeYourFuture_) 
 
-1.  Seating setup: 3/4 around a table
-2.  Repo:
-    - Have components for different exercises
-    - Have a backup fake API data
-3.  Prepare the app to be built
-4.  Add links
-5.  Prepare slides
+### Mozafar Haider
+[Twitter](https://twitter.com/kabaros) 
+
+
+### Michael Antczak
+[Twitter](https://twitter.com/AntczakMichael)
+
+# CodeYourFuture Students helping us today are:
+
+### Etzali Hernández
+[Twitter](https://twitter.com/TopiMorita) 
+
+### Yohannes Fekadu
+[Twitter](https://twitter.com/fekadu_yohannes) 
+
+### Khaled Kharaz
+No Twitter :(
+
+### Khaled Zaky
+[Twitter](https://twitter.com/khaledkzy) 
+
+### Islam Dudaev
+[Website](https://islamdudaev.ru) 
+
+# We also have:
+
+### Daniel Joyce
+[Twitter](https://twitter.com/DanielToDev) 
 
 # Pre-requisites
 
@@ -56,7 +77,8 @@ We want you to:
 - [Chapter 10: Platform specific code](chapters/10-Platform.md)
 - [Chapter 11: End Talk](chapters/11-EndTalk.md)
 
-# An App - We are building an app!
+# An App
+[Geo Coffee app.](https://github.com/DanielAJoyce/geo-coffee)
 
 ### Resources
 

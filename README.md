@@ -4,36 +4,27 @@
 
 # The Workshop is run by:
 
-### two mentors from [CodeYourFuture:](https://twitter.com/CodeYourFuture_) 
+We are all part of [CodeYourFuture:](https://twitter.com/CodeYourFuture_) 
 
-#### Mozafar Haider
-[Twitter](https://twitter.com/kabaros) 
+**Michael Antczak** - [Twitter](https://twitter.com/AntczakMichael)
 
-
-#### Michael Antczak
-[Twitter](https://twitter.com/AntczakMichael)
+**Mozafar Haider** - [Twitter](https://twitter.com/kabaros) 
 
 ### CodeYourFuture Students helping us today are:
 
-#### Etzali Hernández
-[Twitter](https://twitter.com/TopiMorita) 
+**Etzali Hernández** - [Twitter](https://twitter.com/TopiMorita) 
 
-#### Yohannes Fekadu
-[Twitter](https://twitter.com/fekadu_yohannes) 
+**Yohannes Fekadu** - [Twitter](https://twitter.com/fekadu_yohannes) 
 
-#### Khaled Kharaz
-No Twitter :(
+**Khaled Kharaz** - No Twitter :(
 
-#### Khaled Zaky
-[Twitter](https://twitter.com/khaledkzy) 
+**Khaled Zaky** - [Twitter](https://twitter.com/khaledkzy) 
 
-#### Islam Dudaev
-[Website](https://islamdudaev.ru) 
+**Islam Dudaev** - [Website](https://islamdudaev.ru) 
 
 ### We also have:
 
-#### Daniel Joyce
-[Twitter](https://twitter.com/DanielToDev) 
+**Daniel Joyce** - [Twitter](https://twitter.com/DanielToDev) 
 
 # Code of Conduct
 The ScotlandJS [code of conduct](http://scotlandjs.com/codeofconduct/) applies to our workshop and the social event.
